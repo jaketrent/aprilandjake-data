@@ -1,9 +1,10 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem "active_model_serializers"
+gem 'active_model_serializers'
+gem 'rails_admin'
 
 # Use sqlite3 as the database for Active Record
 gem 'pg'
@@ -50,3 +51,6 @@ gem 'unicorn'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+gem "devise"
